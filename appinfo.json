@@ -1,0 +1,45 @@
+{
+    "appKeys": {
+        "fetch": 0,
+        "price": 1,
+        "price_london": 2
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Anton Veretenenko",
+    "longName": "URKA Stock Ticker",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": ":",
+                "compatibility": "2.7",
+                "file": "fonts/Roboto-Bold.ttf",
+                "name": "FONT_ROBOTO_BOLD_53",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9.:]",
+                "compatibility": "2.7",
+                "file": "fonts/nevis.ttf",
+                "name": "FONT_JERSEY_56",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/nevis.ttf",
+                "name": "FONT_JERSEY_20",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "URKA Ticker",
+    "uuid": "05e14ace-c693-4eb8-b3c7-9dcc1a891e1b",
+    "versionCode": 1,
+    "versionLabel": "1.4",
+    "watchapp": {
+        "watchface": true
+    }
+}
